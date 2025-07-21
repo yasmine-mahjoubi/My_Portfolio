@@ -26,12 +26,7 @@ export default function AnimatedLogo() {
         variants={animationVariants}
         className="flex h-full w-full items-center justify-center"
       >
-        <Image
-          src={logo}
-          alt="Logo"
-          width={800}
-          height={800}
-        />
+        <Image src={logo} alt="Logo" width={800} height={800} />
       </motion.div>
     </AnimatePresence>
   );

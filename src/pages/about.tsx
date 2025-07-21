@@ -4,7 +4,7 @@ import AboutHero from "@/components/about-hero";
 import ExperienceShowcaseList from "@/components/experience/experience-showcase-list";
 import { EXPERIENCE } from "@/data/experience";
 import { EDUCATION } from "@/data/education";
-import { CERTIFICATION} from "@/data/certification";
+import { CERTIFICATION } from "@/data/certification";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 import CursorTrailCanvas from "@/components/cursor-trail-canvas";
 
@@ -47,7 +47,7 @@ export default function About() {
       <AboutHero />
       <ExperienceShowcaseList title="Experience" details={EXPERIENCE} />
       <ExperienceShowcaseList title="Education" details={EDUCATION} />
-        <ExperienceShowcaseList title="CERTIFICATION" details={CERTIFICATION} />
+      <ExperienceShowcaseList title="CERTIFICATION" details={CERTIFICATION} />
     </>
   );
 }

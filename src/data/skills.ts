@@ -1,8 +1,4 @@
-import { SiPrisma, SiNextdotjs } from "react-icons/si";
-
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
-
-// Languages
 import PythonSvg from "@/public/icons/python.svg";
 import ReactjsSvg from "@/public/icons/reactjs.svg";
 import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
@@ -10,13 +6,13 @@ import SpringSvg from "@/public/icons/Spring_Boot.svg";
 import CSvg from "@/public/icons/C.svg";
 import JavaSvg from "@/public/icons/java.svg";
 import PHPSvg from "@/public/icons/PHP.svg";
-import LaravelSvg from  "@/public/icons/Laravel.svg";
-import NodeSvg from  "@/public/icons/node-js.svg";
+import LaravelSvg from "@/public/icons/Laravel.svg";
+import NodeSvg from "@/public/icons/node-js.svg";
 import BootstrapSvg from "@/public/icons/Bootstrap.svg";
 import FigmaSvg from "@/public/icons/Figma-logo.svg";
 import SSISSvg from "@/public/icons/database-sql-svgrepo-com.svg";
 import BISvg from "@/public/icons/power-bi-icon.svg";
-import ExcelSvg from "@/public/icons/microsoft-excel-icon.svg"
+import ExcelSvg from "@/public/icons/microsoft-excel-icon.svg";
 import MongoDBSvg from "@/public/icons/mongodb.svg";
 import MysqlSvg from "@/public/icons/mysql.svg";
 import GitSvg from "@/public/icons/git.svg";

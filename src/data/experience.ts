@@ -9,8 +9,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     },
     date: "Feb 2025 - Juin 2025",
     location: "Monplaisir, Tunis - Tunisie",
-    description:
-      "Develop a digitalization platform for Invoice Management",
+    description: "Develop a digitalization platform for Invoice Management",
   },
   {
     title: "Founder / Web Developer at EndlessByte",
@@ -21,7 +20,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     date: "June 2024 - Aute 2024",
     location: "Rades, Ben Arous - Tunisie",
     description:
-        "Endless Byte is a specialized web and mobile development team dedicated to turning your ideas into online solutions.",
+      "Endless Byte is a specialized web and mobile development team dedicated to turning your ideas into online solutions.",
   },
   {
     title: "Summer internship",
@@ -31,6 +30,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     },
     date: "June 2024 - July 2024",
     location: "Ariana, Ariana - Tunisie",
-    description: "create an interactive and responsive user interface for MaCompta",
+    description:
+      "create an interactive and responsive user interface for MaCompta",
   },
 ];

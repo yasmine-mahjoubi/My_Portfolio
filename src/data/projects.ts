@@ -1,6 +1,5 @@
 import { type ProjectCardProps } from "@/components/projects/project-card";
 import { type ProjectShowcaseListItem } from "@/components/projects/project-showcase-list";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
@@ -42,18 +41,19 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     imageUrl: ["/images/projects/tt.png"],
     description:
       "This project was carried out at the company Tunisie Telecom as part of a\n" +
-        " f\n" +
-        " inal-year internship where i propose a digital invoice management platform \n" +
-        " This application enables efficient handling of invoices between suppliers and\n" +
-        " internal departments, allowing tracking of each invoice’s status throughout its\n" +
-        " lifecycle.",
+      " f\n" +
+      " inal-year internship where i propose a digital invoice management platform \n" +
+      " This application enables efficient handling of invoices between suppliers and\n" +
+      " internal departments, allowing tracking of each invoice’s status throughout its\n" +
+      " lifecycle.",
     liveWebsiteHref: "#",
   },
   {
     name: "Glamour Chic",
     favicon: "/images/projects/logos/weCare.ico",
     imageUrl: ["/images/projects/glamour-chic.png"],
-    description: "This is a beauty management project developed with the MERN Stack, where users can book services at beauty centers, view nearby centers based on location, and explore available offers.",
+    description:
+      "This is a beauty management project developed with the MERN Stack, where users can book services at beauty centers, view nearby centers based on location, and explore available offers.",
     sourceCodeHref: "https://github.com/yasmine-mahjoubi/Glamour-Chic",
     liveWebsiteHref: "#",
   },
@@ -63,7 +63,8 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     imageUrl: ["/images/projects/ride-wave.jpg"],
     description:
       "This project is a Carpooling Management System developed with new technologies, designed to facilitate ride sharing between users. It allows the creation, management, and booking of rides while offering features for rating drivers and passengers.",
-    sourceCodeHref: "https://github.com/yasmine-mahjoubi/SpringBoot_Projet-Carpooling.git",
+    sourceCodeHref:
+      "https://github.com/yasmine-mahjoubi/SpringBoot_Projet-Carpooling.git",
     liveWebsiteHref: "#",
   },
   {
@@ -89,7 +90,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     favicon: "/images/projects/logos/leoni.ico",
     imageUrl: ["/images/projects/puzzle3.png"],
     description:
-        "This project is a version of the 8-puzzle game, developed in Python and using artificial intelligence to solve the puzzle. The game employs A\* and hill climbing algorithms to find optimized solutions.",
+      "This project is a version of the 8-puzzle game, developed in Python and using artificial intelligence to solve the puzzle. The game employs A* and hill climbing algorithms to find optimized solutions.",
     sourceCodeHref: "https://github.com/yasmine-mahjoubi/Jeu-Puzzle-8",
     liveWebsiteHref: "#",
   },
