@@ -5,22 +5,22 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     title: "PFE internship",
     organisation: {
       name: "Tunisie Telecom",
-      href: "https://tunisietelecom.tn/",
+      href: "https://www.tunisietelecom.tn/particulier/",
     },
     date: "Feb 2025 - Juin 2025",
     location: "Monplaisir, Tunis - Tunisie",
     description: "Develop a digitalization platform for Invoice Management",
   },
   {
-    title: "Founder / Web Developer at EndlessByte",
+    title: "Seasonal worker",
     organisation: {
-      name: "Poste",
-      href: "https://poste.tn/",
+      name: "the Tunisian Post Office",
+      href: "https://www.poste.tn/",
     },
     date: "June 2024 - Aute 2024",
     location: "Rades, Ben Arous - Tunisie",
     description:
-      "Endless Byte is a specialized web and mobile development team dedicated to turning your ideas into online solutions.",
+      "Working with the finance team allowed me to develop administrative and communication skills and maintain excellent client relationships.",
   },
   {
     title: "Summer internship",
