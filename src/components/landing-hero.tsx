@@ -44,7 +44,7 @@ export default function LandingHero() {
                 </h1>
 
                 <span className="ml-2 mt-4 block text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
-                  Full Stack Developer
+                  AI & Data Science Student | Full Stack Developer
                 </span>
               </div>
             </FadeUp>

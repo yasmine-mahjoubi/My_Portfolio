@@ -18,12 +18,12 @@ export default function Home() {
         color="#0CFBA0"
       />
       <NextSeo
-        title="Yasmine Mahjoubi | Full Stack Developer"
-        description="Explore the professional portfolio of Yasmine Mahjoubi, an experienced professional full stack developer. Discover the journey, skills and passion that drives me to create innovative web and video solutions."
+        title="Yasmine Mahjoubi | AI & Data Sciences Engineering Student"
+        description="Discover the portfolio of Yasmine Mahjoubi, an AI & Data Science engineering student, showcasing projects in web development, data science, and intelligent solutions."
         canonical={siteMetadata.siteUrl}
         openGraph={{
           url: siteMetadata.siteUrl,
-          title: "Yasmine Mahjoubi | Full Stack Developer",
+          title: "Yasmine Mahjoubi | AI & Data Sciences Engineering Student",
           description:
             "Explore my journey, recent projects, and expertise as a full stack developer",
           images: [
@@ -42,7 +42,7 @@ export default function Home() {
           {
             property: "keywords",
             content:
-              "About Me, React Developer, Frontend Developer, Web Developer, JavaScript, Java, Python, PHP, C, HTML, CSS, Skills, Passion for Web Development, Full Stack Developer, Web Designer, Video Editor™",
+              "About Me,Data, AI, Web Developer, JavaScript, Java, Python, Skills, Full Stack Developer, Web Designer, Video Editor™",
           },
         ]}
       />

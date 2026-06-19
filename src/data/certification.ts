@@ -11,4 +11,14 @@ export const CERTIFICATION: ExperienceShowcaseListItemProps[] = [
     location: "FST",
     description: "",
   },
+  {
+    title: "CISCO CERTIFICATE OF ACHIEVEMENT: INTRODUCTION TO DATA SCIENCE",
+    organisation: {
+      name: "Certificate",
+      href: "/images/certif-DS.png",
+    },
+    date: "11 September 2025",
+    location: "FST",
+    description: "",
+  },
 ];

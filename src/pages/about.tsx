@@ -21,9 +21,10 @@ export default function About() {
         canonical={`${siteMetadata.siteUrl}/about`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/about`,
-          title: "Learn About Yasmine Mahjoubi - Full Stack Developer",
+          title:
+            "Learn About Yasmine Mahjoubi - Data Science Student and Full Stack Developer",
           description:
-            "Dive into the story of Yasmine Mahjoubi, a Full Stack Developer. Discover the experience, skills, and passion that fuel a commitment to delivering exceptional web and video solutions.",
+            "Dive into the story of Yasmine Mahjoubi, a Data Science Student and Full Stack Developer. Discover the experience, skills, and passion that fuel a commitment to delivering exceptional web and video solutions.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
@@ -40,7 +41,7 @@ export default function About() {
           {
             property: "keywords",
             content:
-              "About Me, React Developer, Frontend Developer, Web Developer, JavaScript,Java, Python, PHP, C, HTML, CSS, Professional Journey, Skills, Passion for Web Development, Software Engineering, Full Stack Developer, Web Designer, Video Editor, IA ™",
+              "About Me, Data Science, Web Developer, JavaScript,Java, Python, PHP, C, HTML, CSS, Professional Journey, Skills, Passion for Web Development, Software Engineering, Full Stack Developer, Web Designer, Video Editor, IA ™",
           },
         ]}
       />

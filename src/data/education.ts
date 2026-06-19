@@ -2,13 +2,23 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
+    title: "AI and Data Sciences Engineering",
+    organisation: {
+      name: "FST | Faculty of Sciences of Tunis",
+      href: "http://www.fst.rnu.tn/",
+    },
+    date: "2025-2028",
+    location: "Tunis - Tunisia",
+    description: "",
+  },
+  {
     title: "Bachelor in Software Engineering and Information System",
     organisation: {
       name: "FST | Faculty of Sciences of Tunis",
       href: "http://www.fst.rnu.tn/",
     },
     date: "2022-2025",
-    location: "Tunis - Tunisie",
+    location: "Tunis - Tunisia",
     description: "",
   },
   {
@@ -18,7 +28,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
       href: "#",
     },
     date: "2021-2022",
-    location: "Elhamma - Gabes - Tunisie",
+    location: "Elhamma - Gabes - Tunisia",
     description: "",
   },
 ];

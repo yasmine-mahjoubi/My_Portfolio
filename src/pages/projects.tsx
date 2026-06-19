@@ -18,9 +18,10 @@ export default function Projects() {
         canonical={`${siteMetadata.siteUrl}/projects`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/projects`,
-          title: "Discover Projects by Yasmine Mahjoubi - Full Stack Developer",
+          title:
+            "Discover Projects by Yasmine Mahjoubi - Data Science Student & Full Stack Developer",
           description:
-            "Explore a showcase of projects crafted by Yasmine Mahjoubi, a Full Stack Developer. See the fusion of creativity and technology in web development and video editing.",
+            "Explore a showcase of projects crafted by Yasmine Mahjoubi. See the fusion of creativity and technology in web development and video editing.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
@@ -37,7 +38,7 @@ export default function Projects() {
           {
             property: "keywords",
             content:
-              "Projects, Portfolio, About Me, React Developer, Frontend Developer, Web Developer, JavaScript, Java, Python, PHP, C, HTML, CSS, Professional Journey, Skills, Passion for Web Development, Software Engineering, Full Stack Developer, Web Designer, Video Editor™, UI/UX, Web Applications, Responsive Design",
+              "Projects, Portfolio, About Me, Data Science, IA, Web Developer, JavaScript, Java, Python, PHP, C, HTML, CSS, Professional Journey, Skills, Passion for Web Development, Software Engineering, Full Stack Developer, Web Designer, Video Editor™, UI/UX, Web Applications, Responsive Design",
           },
         ]}
       />

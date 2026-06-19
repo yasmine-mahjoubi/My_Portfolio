@@ -5,12 +5,11 @@ import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
 import SpringSvg from "@/public/icons/Spring_Boot.svg";
 import CSvg from "@/public/icons/C.svg";
 import JavaSvg from "@/public/icons/java.svg";
-import PHPSvg from "@/public/icons/PHP.svg";
+import firebaseSvg from "@/public/icons/firebase.svg";
 import LaravelSvg from "@/public/icons/Laravel.svg";
 import NodeSvg from "@/public/icons/node-js.svg";
 import BootstrapSvg from "@/public/icons/Bootstrap.svg";
 import FigmaSvg from "@/public/icons/Figma-logo.svg";
-import SSISSvg from "@/public/icons/database-sql-svgrepo-com.svg";
 import BISvg from "@/public/icons/power-bi-icon.svg";
 import ExcelSvg from "@/public/icons/microsoft-excel-icon.svg";
 import MongoDBSvg from "@/public/icons/mongodb.svg";
@@ -21,6 +20,9 @@ import AngularSvg from "@/public/icons/angular.svg";
 import LinuxSvg from "@/public/icons/linux.svg";
 import GitHubSvg from "@/public/icons/github.svg";
 import PremierSvg from "@/public/icons/Premiere_Pro.svg";
+import sparkSvg from "@/public/icons/spark.svg";
+import sqlSvg from "@/public/icons/sql.svg";
+import canvaSvg from "@/public/icons/canva.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
@@ -59,10 +61,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: CSvg,
       },
       {
-        name: "PHP",
-        icon: PHPSvg,
-      },
-      {
         name: "Laravel",
         icon: LaravelSvg,
       },
@@ -83,14 +81,22 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "MongoDB",
         icon: MongoDBSvg,
       },
+      {
+        name: "Firebase",
+        icon: firebaseSvg,
+      },
     ],
   },
   {
     sectionName: "Business Intelligence and Data",
     skills: [
       {
+        name: "Apache Spark",
+        icon: sparkSvg,
+      },
+      {
         name: "SQL",
-        icon: SSISSvg,
+        icon: sqlSvg,
       },
       {
         name: "Power BI",
@@ -129,6 +135,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Figma",
         icon: FigmaSvg,
+      },
+      {
+        name: "Canva",
+        icon: canvaSvg,
       },
     ],
   },

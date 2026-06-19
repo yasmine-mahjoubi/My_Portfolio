@@ -14,12 +14,12 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   },
   {
     index: 1,
-    title: "RideWave",
+    title: "DataInsight360",
     href: "/projects",
-    tags: ["React", "Bootstrap", "SpringBoot", "MySQL"],
+    tags: ["Angular", "Firebase"],
     image: {
-      LIGHT: "/images/projects/ride-wave.jpg",
-      DARK: "/images/projects/ride-wave.jpg",
+      LIGHT: "/images/projects/datainsights.png",
+      DARK: "/images/projects/datainsights.png",
     },
   },
   {
@@ -35,6 +35,33 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 ];
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
+  {
+    name: "GraphMaster",
+    favicon: "/images/projects/logos/graph.png",
+    imageUrl: ["/images/projects/graph.png"],
+    description:
+      "An interactive MERN stack platform for exploring and experimenting with graph algorithms, featuring dynamic visualization of graph structures and algorithm execution.\n",
+    sourceCodeHref: "https://github.com/ranim125/projet_graphes.git",
+    liveWebsiteHref: "#",
+  },
+  {
+    name: "Education Analytics",
+    favicon: "/images/projects/logos/bigdata.png",
+    imageUrl: ["/images/projects/bigdata.png"],
+    description:
+      "A scalable Big Data solution using Python, Apache Spark, and MLlib to process and analyze large datasets, with Power BI dashboards for clear and interactive data visualization.\n",
+    liveWebsiteHref: "#",
+  },
+  {
+    name: "DataInsight360",
+    favicon: "/images/projects/logos/analysis.png",
+    imageUrl: ["/images/projects/datainsights.png"],
+    description:
+      "A modern Angular application built for data science students, offering a Data Insights platform to import, manage, analyze, and visualize datasets through a clean and modular interface.\n",
+    sourceCodeHref:
+      "https://github.com/yasmine-mahjoubi/Projet_DataInsight360.git",
+    liveWebsiteHref: "#",
+  },
   {
     name: "PFE Project / Tunisie Telecom",
     favicon: "/images/projects/logos/tt.ico",
@@ -77,7 +104,15 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://macompta.com.tn/",
   },
   {
-    name: "MyHopital",
+    name: "Simulateur",
+    favicon: "/images/projects/logos/analysis.png",
+    imageUrl: ["/images/projects/simulateur.png"],
+    description:
+      "A Python project that simulates random variables and common probability distributions, providing interactive visualization to support statistical understanding and experimentation.\n",
+    liveWebsiteHref: "#",
+  },
+  {
+    name: "Santé24",
     favicon: "/images/projects/logos/hopital.png",
     imageUrl: ["/images/projects/hopital.png"],
     description:
