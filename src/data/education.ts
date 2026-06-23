@@ -2,7 +2,7 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
-    title: "AI and Data Sciences Engineering",
+    title: "AI and Data Science Engineering",
     organisation: {
       name: "FST | Faculty of Sciences of Tunis",
       href: "http://www.fst.rnu.tn/",
