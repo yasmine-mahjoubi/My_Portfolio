@@ -18,12 +18,12 @@ export default function Home() {
         color="#0CFBA0"
       />
       <NextSeo
-        title="Yasmine Mahjoubi | AI & Data Sciences Engineering Student"
+        title="Yasmine Mahjoubi | AI & Data Science Engineering Student"
         description="Discover the portfolio of Yasmine Mahjoubi, an AI & Data Science engineering student, showcasing projects in web development, data science, and intelligent solutions."
         canonical={siteMetadata.siteUrl}
         openGraph={{
           url: siteMetadata.siteUrl,
-          title: "Yasmine Mahjoubi | AI & Data Sciences Engineering Student",
+          title: "Yasmine Mahjoubi | AI & Data Science Engineering Student",
           description:
             "Explore my journey, recent projects, and expertise as a full stack developer",
           images: [
